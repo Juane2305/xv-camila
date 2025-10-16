@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Adelia';
+  src: url('./assets/fonts/adelia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CG Times Regular */
+@font-face {
+  font-family: 'CG Times';
+  src: url('./assets/fonts/cg-times/Times CG.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* CG Times Italic */
+@font-face {
+  font-family: 'CG Times';
+  src: url('./assets/fonts/cg-times/Times CG Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* CG Times Bold */
+@font-face {
+  font-family: 'CG Times';
+  src: url('./assets/fonts/cg-times/Times CG Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* CG Times Bold Italic */
+@font-face {
+  font-family: 'CG Times';
+  src: url('./assets/fonts/cg-times/Times CG Bold Italic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Anthony Hunter Regular */
+@font-face {
+  font-family: 'Anthony Hunter';
+  src: url('./assets/fonts/AnthonyHunter-7B0zR.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Ophelia Personal Use */
+@font-face {
+  font-family: 'Ophelia';
+  src: url('./assets/fonts/ophelia-personal-use-only.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme{
+    --font-eleganteText: 'Libertinus Serif Display', serif;
+    --font-brushNames: 'Marck Script', cursive;
+    --font-eleganteTitle: 'Tangerine', cursive;
+    --font-finalText: 'Satisfy', cursive;
+    --font-cgTimes: 'CG Times', serif;
+    --font-adelia: 'Adelia', cursive;
+
+    --font-anthony: 'Anthony Hunter', cursive;
+
+    --font-ophelia: 'Ophelia', cursive;
+
+    --color-golden: #cab135;
+    --color-celeste: #ACB7D8;
+    --color-verde: #91A37C;
+    --color-rosa: #E9B6CE
+}
