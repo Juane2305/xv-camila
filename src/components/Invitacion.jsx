@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import InstagramWall from "./InstagramWall";
-import dress from "../assets/aurora/dresscodeGreen.svg";
+import dress from "../assets/aurora/dresscodeGreen.png";
 import CountdownCircles from "./CountdownCircles";
 import song from "../assets/song.mp3";
 import MusicScreen from "./MusicScreen";
